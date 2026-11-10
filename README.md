@@ -14,6 +14,10 @@ internal panel.
 
 ![Pixel 8 desktop mode on a Dell monitor](docs/desktop-on-monitor.png)
 
+| Freeform windows (YouTube, Settings, Magisk module) | Settings with taskbar |
+|---|---|
+| ![](docs/shots/desktop-windows.png) | ![](docs/shots/device-shot.png) |
+
 ## What finally worked
 
 | Piece | What it does |
