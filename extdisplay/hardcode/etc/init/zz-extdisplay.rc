@@ -1,0 +1,12 @@
+# pixel8-extdisplay (hard-coded in system_ext): DP out + mirror to monitor + ADB, every boot
+on post-fs-data
+    setprop persist.vendor.usb.displayport.enabled 1
+    setprop persist.sys.usb.config mtp,adb
+    start pixel8extdisplay
+
+service pixel8extdisplay /system/bin/sh /system_ext/etc/extdisplay.sh
+    user root
+    group root shell
+    seclabel u:r:su:s0
+    oneshot
+    disabled

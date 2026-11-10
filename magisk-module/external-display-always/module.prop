@@ -1,0 +1,6 @@
+id=external_display_always
+name=External Display Always
+version=v1
+versionCode=1
+author=pixel8-desktop
+description=Broken-screen Pixel 8: DisplayPort out always on, mirror at minimum, desktop mode on external displays, ADB always on, internal panel dark.

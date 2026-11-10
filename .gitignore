@@ -1,0 +1,5 @@
+logs/
+*.img
+*.log
+*.zip
+**/adb_keys

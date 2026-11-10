@@ -1,0 +1,6 @@
+id=pixel8-extdisplay
+name=Pixel 8 External Display
+version=v1
+versionCode=1
+author=pixel8-desktop
+description=Broken-screen Pixel 8: DisplayPort always on, phone mirrored to the monitor (or desktop mode), ADB always on, no lock, never sleeps. Action button toggles mirror/desktop.
